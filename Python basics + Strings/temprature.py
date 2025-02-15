@@ -1,0 +1,5 @@
+f=int(input("Enter the temperature in fahrenheit : "))
+c=(f-32)*(5/9)
+c=round(c, 3)
+print(f"Temperature in fahrenheit : {f}")
+print(f"Temperature in centigrade : {c}")

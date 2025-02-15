@@ -1,0 +1,8 @@
+a=(1,)
+print(type(a))
+a=(1, 54, 545, 87, 26, 94, 74, 1, 1,)
+print(a)
+no = a.count(1)
+print(no)
+i = a.index(545)
+print(i)
