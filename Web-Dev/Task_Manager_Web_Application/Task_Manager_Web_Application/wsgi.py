@@ -1,5 +1,5 @@
 """
-WSGI config for E_VEHICLES project.
+WSGI config for Task_Manager_Web_Application project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'E_VEHICLES.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Task_Manager_Web_Application.settings')
 
 application = get_wsgi_application()
