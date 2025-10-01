@@ -97,7 +97,7 @@ print("\nPrinting Raw String in HEX Format: ")
 print(String1)
 
 
-# Formatting of Strings 
+# Formatting of Strings
 # Default order 
 String1 = "{} {} {}".format('Geeks', 'For', 'Life') 
 print("Print String in default order: ") 
