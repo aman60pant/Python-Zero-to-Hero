@@ -94,7 +94,7 @@ print(String1)
 # ignore Escape Sequences 
 String1 = r"This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
 print("\nPrinting Raw String in HEX Format: ") 
-print(String1) 
+print(String1)
 
 
 # Formatting of Strings 
