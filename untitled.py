@@ -10,4 +10,3 @@ print(f"Last world: {chai_description[13:]}")
 
 
 
-
