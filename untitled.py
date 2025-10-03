@@ -9,4 +9,3 @@ print(f"First world: {chai_description[:8]}")
 print(f"Last world: {chai_description[13:]}")
 
 
-
