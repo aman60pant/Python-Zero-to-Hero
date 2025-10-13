@@ -1,4 +1,3 @@
-
 snack = input("Hey! Enter your favourite snac: ").lower()
 
 print(f"user said: {snack}");
