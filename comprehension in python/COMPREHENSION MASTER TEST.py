@@ -17,7 +17,7 @@ print(result)
 # Q4: Filter and Modify (Set Comprehension)
 # Create a set containing half of each number (i.e. divide by 2) but only include if number > 5.
 nums = [2, 4, 6, 8, 10, 12, 14]
-result2 = [num/2 for num in nums if num > 5]
+result2 = {n // 2 for n in nums if n > 5 and n % 2 == 0}
 print(result2)
 
 # Q5: Unique Letters (Set Comprehension)
