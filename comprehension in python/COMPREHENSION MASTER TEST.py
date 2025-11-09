@@ -8,3 +8,9 @@ print(list_1)
 List_2 = ["Even" if x%2==0 else "Odd" for x in range(1, 11)]
 print(List_2)
 
+# Q3: Flatten Nested List
+# Use nested list comprehension to flatten it → [1,2,3,4,5,6,7,8,9].
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+result = [x for row in matrix for x in row]
+print(result)
+
