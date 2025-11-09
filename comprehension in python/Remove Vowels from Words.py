@@ -1,5 +1,5 @@
 list_given = ["apple", "orange", "grapes", "kiwi", "mango"]
 
-result = [x for row in list_given for x in row if x not in 'aeiou']
+result = [''.join(ch for ch in word if ch.lower() not in 'aeiou') for word in list_given]
 
 print(result)
