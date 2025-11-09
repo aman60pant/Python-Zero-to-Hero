@@ -20,3 +20,8 @@ nums = [2, 4, 6, 8, 10, 12, 14]
 result2 = [num/2 for num in nums if num > 5]
 print(result2)
 
+# Q5: Unique Letters (Set Comprehension)
+# Create a set containing all unique vowels used in all words.
+words = ["python", "ai", "machine", "learning"]
+set_1 = {ch for word in words for ch in word if ch in "aeiou"}
+print(set_1)
