@@ -51,3 +51,8 @@ print(final_dict_3)
 gen = (x**3 for x in range(1, 11) if x % 2 == 0)
 for x in gen:
     print(x)
+
+# Q10: Generator + Built-in Function
+# Using generator comprehension, find the sum of all odd numbers’ cubes between 1–20.
+genrator = sum(x**3 for x in range(1, 21) if x % 2 != 0)
+print(genrator)
