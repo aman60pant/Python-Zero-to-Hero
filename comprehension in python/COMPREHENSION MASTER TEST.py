@@ -32,3 +32,10 @@ students = ["Aman", "Ravi", "Neha"]
 marks = [85, 90, 78]
 final_dict = {k: v for k, v in zip(students, marks)}
 print(final_dict)
+
+# Q7: Reverse Mapping (Dict Comprehension)
+# Create a new dict where marks become keys and names become values.
+student_marks = {"Aman": 85, "Ravi": 90, "Priya": 78}
+final_dict_2 = {k: v for v, k in student_marks.items()}
+print(final_dict_2)
+
