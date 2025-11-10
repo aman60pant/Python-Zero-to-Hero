@@ -39,3 +39,8 @@ student_marks = {"Aman": 85, "Ravi": 90, "Priya": 78}
 final_dict_2 = {k: v for v, k in student_marks.items()}
 print(final_dict_2)
 
+# Q8: Filtering with Condition (Dict Comprehension)
+# Create a dictionary of only those items whose price > 80.
+prices = {"apple": 120, "banana": 40, "mango": 90, "grapes": 150}
+final_dict_3 = {k: v for k, v in prices.items() if v > 80}
+print(final_dict_3)
