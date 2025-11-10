@@ -25,3 +25,10 @@ print(result2)
 words = ["python", "ai", "machine", "learning"]
 set_1 = {ch for word in words for ch in word if ch in "aeiou"}
 print(set_1)
+
+# Q6: Dictionary Mapping (Dict Comprehension)
+# Use dict comprehension with zip() to create a dictionary
+students = ["Aman", "Ravi", "Neha"]
+marks = [85, 90, 78]
+final_dict = {k: v for k, v in zip(students, marks)}
+print(final_dict)
