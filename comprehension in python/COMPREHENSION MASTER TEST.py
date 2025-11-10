@@ -36,7 +36,7 @@ print(final_dict)
 # Q7: Reverse Mapping (Dict Comprehension)
 # Create a new dict where marks become keys and names become values.
 student_marks = {"Aman": 85, "Ravi": 90, "Priya": 78}
-final_dict_2 = {k: v for v, k in student_marks.items()}
+final_dict_2 = {v: k for k, v in student_marks.items()}
 print(final_dict_2)
 
 # Q8: Filtering with Condition (Dict Comprehension)
@@ -44,3 +44,10 @@ print(final_dict_2)
 prices = {"apple": 120, "banana": 40, "mango": 90, "grapes": 150}
 final_dict_3 = {k: v for k, v in prices.items() if v > 80}
 print(final_dict_3)
+
+# Q9: Generator Comprehension
+# Create a generator that yields cubes of numbers 1–10, but only if the number is even.
+# Iterate and print each cube.
+gen = (x**3 for x in range(1, 11) if x % 2 == 0)
+for x in gen:
+    print(x)
